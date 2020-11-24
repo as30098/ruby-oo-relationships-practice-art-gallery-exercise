@@ -4,7 +4,7 @@ In this project, we will be practicing object relationships in Ruby, with a part
 
 ### Introduction
 
-You got yourself a fancy new job and you've been put in charge of making a program to keep track of paintings, and the galleries that are selling them.  
+You got yourself a fancy new job and you've been put in charge of making a program to keep track of paintings, and the galleries that are selling them.
 
 Each painting has a price, and a title.  Each artist has a name and an amount of years of experience, and each gallery has a name and a city.
 
@@ -16,9 +16,10 @@ The initial files and basic attributes have already been built, but you'll need 
 
 An artist can, of course, have many paintings. Paintings can only be in one gallery at a time, and only have one artist.  Galleries can have many paintings.
 
-* What are your models?
+* What are your models? artist, gallery, painting
 * What does your schema look like?
 * What are the relationships between your models?
+* artist -< painting >- gallery
 
 
 
